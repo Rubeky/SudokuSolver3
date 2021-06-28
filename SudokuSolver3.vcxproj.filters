@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\1 - OCR">
+      <UniqueIdentifier>{28f88aa0-3b7c-438b-bee3-f093ff3a4332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2 - Solver">
+      <UniqueIdentifier>{7c0bb72e-dcbe-4d64-9e92-58303872f6e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3 - FillBoard">
+      <UniqueIdentifier>{a7e7c54d-d78c-4341-8a58-42d16a5f7bd6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="structs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManipulation.cpp">
+      <Filter>Source Files\1 - OCR</Filter>
+    </ClCompile>
+    <ClCompile Include="SudokuSolver.cpp">
+      <Filter>Source Files\2 - Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardFiller.cpp">
+      <Filter>Source Files\3 - FillBoard</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImageManipulation.h">
+      <Filter>Source Files\1 - OCR</Filter>
+    </ClInclude>
+    <ClInclude Include="SudokuSolver.h">
+      <Filter>Source Files\2 - Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardFiller.h">
+      <Filter>Source Files\3 - FillBoard</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
